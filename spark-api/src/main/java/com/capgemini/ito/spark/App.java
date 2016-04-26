@@ -15,6 +15,7 @@ public class App {
 		AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(App.class);
 		new WebConfig(ctx.getBean(MessageService.class));
 		ctx.registerShutdownHook();
+		
 	}
 
 }

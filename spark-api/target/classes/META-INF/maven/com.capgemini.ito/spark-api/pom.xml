@@ -8,22 +8,29 @@
 	<packaging>jar</packaging>
 
 	<name>spark-api</name>
-	<url>http://maven.apache.org</url>
+	<url>https://github.com/khabali/cap-iot-challenge</url>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<jdk.version>1.8</jdk.version>
 		<spark.version>2.2</spark.version>
-		<spark.freemarker.version>2.0.0</spark.freemarker.version>
-		<freemarker.version>2.3.23</freemarker.version>
 		<spring.version>4.2.0.RELEASE</spring.version>
 		<hsqldb.version>2.3.3</hsqldb.version>
 		<dbcp.version>2.1.1</dbcp.version>
-		<jbcrypt.version>0.4</jbcrypt.version>
 		<commons.beanutils.version>1.9.2</commons.beanutils.version>
 	</properties>
 
 	<dependencies>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-core</artifactId>
+			<version>2.5.1</version>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.5.1</version>
+		</dependency>
 
 		<dependency>
 			<groupId>com.google.code.gson</groupId>
@@ -74,12 +81,6 @@
 			<version>${dbcp.version}</version>
 		</dependency>
 
-		<!-- Password hashes -->
-		<dependency>
-			<groupId>de.svenkubiak</groupId>
-			<artifactId>jBCrypt</artifactId>
-			<version>${jbcrypt.version}</version>
-		</dependency>
 
 		<!-- Populate bean from request -->
 		<dependency>
