@@ -1,0 +1,9 @@
+/home/khabali/php/projets/spark-api/src/main/java/com/capgemini/ito/spark/model/Message.java
+/home/khabali/php/projets/spark-api/src/main/java/com/capgemini/ito/spark/dao/impl/MessageDaoImpl.java
+/home/khabali/php/projets/spark-api/src/main/java/com/capgemini/ito/spark/dao/MessageDao.java
+/home/khabali/php/projets/spark-api/src/main/java/com/capgemini/ito/spark/service/impl/MessageService.java
+/home/khabali/php/projets/spark-api/src/main/java/com/capgemini/ito/spark/model/Synthesis.java
+/home/khabali/php/projets/spark-api/src/main/java/com/capgemini/ito/spark/config/DatabaseConfig.java
+/home/khabali/php/projets/spark-api/src/main/java/com/capgemini/ito/spark/config/WebConfig.java
+/home/khabali/php/projets/spark-api/src/main/java/com/capgemini/ito/spark/transformer/JsonTransformer.java
+/home/khabali/php/projets/spark-api/src/main/java/com/capgemini/ito/spark/App.java
