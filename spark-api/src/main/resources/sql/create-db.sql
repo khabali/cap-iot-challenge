@@ -1,4 +1,4 @@
-drop table message if exists;
+--drop table message if exists;
 create table message (
   id varchar(100),
   SensorType integer not null,
