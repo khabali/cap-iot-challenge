@@ -13,13 +13,15 @@ import org.springframework.stereotype.Repository;
 import com.capgemini.ito.spark.dao.MessageDao;
 import com.capgemini.ito.spark.model.Message;
 
-@Repository
-public class MessageDaoImpl implements MessageDao {
+@Repository(MessageEmbededDao.BEAN_ID)
+public class MessageEmbededDao implements MessageDao {
+	
+	public static final String BEAN_ID = "MessageEmbededDao";
 
 	private NamedParameterJdbcTemplate template;
 
 	@Autowired
-	public MessageDaoImpl(DataSource ds) {
+	public MessageEmbededDao(DataSource ds) {
 		template = new NamedParameterJdbcTemplate(ds);
 	}
 

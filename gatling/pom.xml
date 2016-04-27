@@ -40,6 +40,9 @@
 			<plugin>
 				<groupId>io.gatling</groupId>
 				<artifactId>gatling-maven-plugin</artifactId>
+				<configuration>
+					<resultsFolder>reports/gatling</resultsFolder>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
