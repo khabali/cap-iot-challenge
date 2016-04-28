@@ -27,12 +27,12 @@ public class DatabaseConfig {
 		return db;
 	}
 
-	@Bean
-	public MongoDbFactory mongoDbFactory() throws UnknownHostException {
-
-		MongoClient mongoClient = new MongoClient(new ServerAddress("localhost"),
-				new MongoClientOptions.Builder().socketKeepAlive(true).minConnectionsPerHost(15).build());
-		return new SimpleMongoDbFactory(mongoClient, "database");
-	}
+//	@Bean
+//	public MongoDbFactory mongoDbFactory() throws UnknownHostException {
+//
+//		MongoClient mongoClient = new MongoClient(new ServerAddress("localhost"),
+//				new MongoClientOptions.Builder().socketKeepAlive(true).minConnectionsPerHost(15).build());
+//		return new SimpleMongoDbFactory(mongoClient, "database");
+//	}
 
 }
