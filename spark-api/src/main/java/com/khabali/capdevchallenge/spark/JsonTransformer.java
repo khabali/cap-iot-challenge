@@ -1,4 +1,4 @@
-package com.capgemini.ito.spark.transformer;
+package com.khabali.capdevchallenge.spark;
 
 import com.google.gson.Gson;
 

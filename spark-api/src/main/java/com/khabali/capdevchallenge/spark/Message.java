@@ -1,12 +1,9 @@
-package com.capgemini.ito.spark.model;
+package com.khabali.capdevchallenge.spark;
 
 import java.util.Date;
 
-import org.springframework.data.annotation.Id;
-
 public class Message {
 
-	@Id
 	private String id = null;
 	private Date timestamp = null;
 	private Integer sensorType = null;

@@ -1,12 +1,8 @@
-package com.capgemini.ito.spark.service.impl;
+package com.khabali.capdevchallenge.spark;
 
 import javax.annotation.Resource;
 
 import org.springframework.stereotype.Service;
-
-import com.capgemini.ito.spark.dao.MessageDao;
-import com.capgemini.ito.spark.dao.impl.MessageEmbededDao;
-import com.capgemini.ito.spark.model.Message;
 
 @Service
 public class MessageService {

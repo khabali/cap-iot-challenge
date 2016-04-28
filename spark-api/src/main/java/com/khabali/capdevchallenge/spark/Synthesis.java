@@ -1,4 +1,4 @@
-package com.capgemini.ito.spark.model;
+package com.khabali.capdevchallenge.spark;
 
 public class Synthesis {
 

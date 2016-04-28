@@ -1,29 +1,21 @@
-package com.capgemini.ito.spark.dao.impl;
+package com.khabali.capdevchallenge.spark;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import javax.sql.DataSource;
+import javax.annotation.Resource;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.stereotype.Repository;
 
-import com.capgemini.ito.spark.dao.MessageDao;
-import com.capgemini.ito.spark.model.Message;
-
 @Repository(MessageEmbededDao.BEAN_ID)
 public class MessageEmbededDao implements MessageDao {
-	
+
 	public static final String BEAN_ID = "MessageEmbededDao";
 
+	@Resource(name = "jdbcTemplate")
 	private NamedParameterJdbcTemplate template;
-
-	@Autowired
-	public MessageEmbededDao(DataSource ds) {
-		template = new NamedParameterJdbcTemplate(ds);
-	}
 
 	@Override
 	public void insertMessage(Message m) {
