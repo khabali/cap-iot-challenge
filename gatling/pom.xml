@@ -42,6 +42,9 @@
 				<artifactId>gatling-maven-plugin</artifactId>
 				<configuration>
 					<resultsFolder>reports/gatling</resultsFolder>
+					<jvmArgs>
+						<jvmArg>-Xmx1024m</jvmArg>
+					</jvmArgs>
 				</configuration>
 			</plugin>
 		</plugins>

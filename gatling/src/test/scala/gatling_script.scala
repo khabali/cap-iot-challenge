@@ -59,8 +59,8 @@ class Injections extends Simulation {
 		"Upgrade-Insecure-Requests" -> "1")
 
     //this is the adress of the http post the adress is your rasberry pi adress
-    //var url="http://192.168.1.3:4567/messages"
-    var url="http://localhost:4567/messages"
+    var url="http://192.168.1.3:4567/messages"
+    //var url="http://localhost:4567/messages"
     	    
 	
 

@@ -1,0 +1,18 @@
+{
+  "simulation": "Injections",
+  "simulationId": "injections",
+  "start": 1461886274234,
+  "description": "null",
+  "scenarios": ["injecteur 4", "injecteur 7", "injecteur 3", "injecteur 8", "injecteur 10", "injecteur 9", "injecteur 1", "injecteur 6", "injecteur 2", "injecteur 5"],
+  "assertions": [
+{
+  "path": "Global",
+  "target": "percentage of successful requests",
+  "condition": "is",
+  "conditionValues": [100],
+  "result": true,
+  "message": "Global: percentage of successful requests is 100",
+  "values": [100]
+}
+  ]
+}
